@@ -1,0 +1,14 @@
+body { font-family: Inter, system-ui, Arial; margin:0; background:#f7fafc; color:#102a43 }
+.app { display:flex; flex-direction:column; min-height:100vh }
+.container { padding:20px; max-width:1100px; margin:0 auto; }
+nav { background:#0b5; padding:12px 20px; display:flex; align-items:center }
+nav a { color:white; margin-right:16px; text-decoration:none; font-weight:600 }
+.header { display:flex; justify-content:space-between; align-items:center }
+.card { background:white; border-radius:10px; padding:16px; box-shadow:0 4px 12px rgba(0,0,0,0.06); margin-bottom:16px }
+.table { width:100%; border-collapse:collapse }
+.table th, .table td { padding:8px; border-bottom:1px solid #eee }
+.highlight { background: linear-gradient(90deg, #fff7c2, #fff) }
+.form-group { margin-bottom:12px }
+.input, textarea { width:100%; padding:8px; border:1px solid #ddd; border-radius:6px }
+.btn { padding:8px 12px; border-radius:8px; border:none; background:#0b5; color:white; cursor:pointer }
+.small { font-size:0.9rem; color:#334e68 }
